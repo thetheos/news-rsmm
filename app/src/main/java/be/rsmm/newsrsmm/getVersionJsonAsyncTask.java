@@ -24,7 +24,6 @@ public class getVersionJsonAsyncTask extends AsyncTask<Integer, String, Void> {
 
     @Override
     protected Void doInBackground(Integer... currentVersionNbr){
-        Boolean isUpdate = Boolean.FALSE;
 
         publishProgress("sending");
 
